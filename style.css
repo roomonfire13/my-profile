@@ -1,0 +1,74 @@
+/*colors and fonts*/
+
+body {
+	background-color: #664765;
+	color: black;
+	font-size:35px;
+	font-family: 'Bad Script', cursive;
+	font-weight: 90;
+}
+h1 {
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size:100px;
+	font-weight: bold;
+	border:3px dotted black;
+	border-radius: 4px;
+	padding: 30px;
+	box-shadow: 2px 2px 3px white;
+	text-align: center;
+
+}
+h2 {
+	font-size:30px;
+	color: white;
+	border:3px dotted black;
+	background-color: #664765;
+	border-radius: 4px;
+	padding: 10px;
+	box-shadow: 2px 2px 3px white;
+	width: 300px;     /* Fix the width first*/
+	margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+
+}
+p {
+	width: 3000px;     /* Fix the width first*/
+	margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+
+}
+
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	color:brown;
+}
+
+/*custom design with class*/
+
+.container {
+	width: 700px;
+	margin:400px;
+}
+.card-white {
+	background-color: lavender;
+	padding:40px;
+	box-shadow: 0px,10px,20px rgba(10,10,10);
+	border-radius: 4px;
+}
+.img-circle {
+	border-radius: 50%;
+	 display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+.list-inline {
+	list-style: none;
+	padding:none;
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
